@@ -10,7 +10,6 @@ def map(source)
   result
 end
 
-
 def reduce(source, starting_point = nil)
   if (source[0].class == Integer)
     result = starting_point.to_i
